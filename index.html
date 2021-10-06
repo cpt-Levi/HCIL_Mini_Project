@@ -11,130 +11,194 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href= "colors.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
 
     <title>Threads and Needles</title>
 </head>
 
 <body>
+<div style = "background-image: url('/images/wallpaper-fade.png'); background-repeat : inherit; background-size: 30%;">
 
-    <nav class="navbar navbar-expand-lg">
+    <div id="nav-placeholder"></div>
 
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+    <!--Carousel-->
+    <div class = "container">
+        <div class = "row-content">
+            <div class = "col">
+                <div id = "myCarousel" class = "carousel slide" data-ride = "carousel">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ol class = "carousel-indicators">
+                        <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+                        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+                        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+                    </ol>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    MEN
+                    <div class = "carousel-inner">
+
+                        <div class = "carousel-item active">
+                                <img class = "d-block w-100" src = "images/carousel1.jpg" alt = "flat_50_discount">
+                            <div class = "carousel-caption d-none d-md-block">
+                                <h1><span class = "badge badge-danger">FLAT 50% OFF</span></h1>
+                                <h2 class = "d-block"><span class = "badge badge-pill badge-primary">Exciting discounts on women wear !!!</span></h2>
+                            </div>   
+                        </div>
+                        
+                        <div class = "carousel-item">
+                                <img class = "d-block w-100" src = "images/carousel2.jpg" alt = "flat_50_discount">
+                            <div class = "carousel-caption d-none d-md-block">
+                                <h1><span class = "badge badge-danger">Free Delivery</span></h1>
+                                <h2 class = "d-block"><span class = "badge badge-pill badge-primary">Free Delivery for Premium Members</span></h2>
+                            </div>   
+                        </div>
+
+                        <div class = "carousel-item">
+                                <img class = "d-block w-100" src = "images/carousel3.jpg" alt = "flat_50_discount">
+                            <div class = "carousel-caption d-none d-md-block">
+                                <h1><span class = "badge badge-danger">FLAT 40% OFF</span></h1>
+                                <h2 class = "d-block"><span class = "badge badge-pill badge-primary">Exciting discounts on men's wear !!!</span></h2>
+                            </div> 
+                        </div>
+
+                    </div>
+
+
+                    <a class = "carousel-control-prev" href = "#myCarousel" role = "button" data-slide = "prev">
+                        <span class = "carousel-control-prev-icon"></span>
                     </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Formals</a></li>
-                    <li><a class="dropdown-item" href="#">Shirts</a></li>
-                    <li><a class="dropdown-item" href="#">Trousers</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Casuals</a></li>
-                    <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                    <li><a class="dropdown-item" href="#">Jeans</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Ethnic</a></li>
-                    <li><a class="dropdown-item" href="#">Kurtas</a></li>
-                    <li><a class="dropdown-item" href="#">Nehru Jackets</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    WOMEN
+                    <a class = "carousel-control-next" href = "#myCarousel" role = "button" data-slide = "next">
+                        <span class = "carousel-control-next-icon"></span>
                     </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Formals</a></li>
-                        <li><a class="dropdown-item" href="#">Shirts</a></li>
-                        <li><a class="dropdown-item" href="#">Trousers</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Casuals</a></li>
-                        <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                        <li><a class="dropdown-item" href="#">Jeans</a></li>
-                        <li><a class="dropdown-item" href="#">Dresses</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Ethnic</a></li>
-                        <li><a class="dropdown-item" href="#">Kurti</a></li>
-                        <li><a class="dropdown-item" href="#">Saree</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    BOYS
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Casuals</a></li>
-                        <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                        <li><a class="dropdown-item" href="#">Jeans</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Ethnic</a></li>
-                        <li><a class="dropdown-item" href="#">Kurtas</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    GIRLS
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Casuals</a></li>
-                        <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                        <li><a class="dropdown-item" href="#">Jeans</a></li>
-                        <li><a class="dropdown-item" href="#">Frocks</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Ethnic</a></li>
-                        <li><a class="dropdown-item" href="#">Kurti</a></li>
-                    </ul>
-                </li>
-
-                <li>
-
-                </li>
-                    <a id = "loginButton">
-                        <button type = "button" class = "btn btn-secondary btn-sm ml-auto"> <strong> Login</strong> </button>
-                    </a>
-                </ul>
-
-                <!-- <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-
-                <li>
-                    <i class="fas fa-shopping-cart"></i>
-                </li>
-
-                
+                </div>
             </div>
         </div>
-      </nav>
+    </div>
 
-      <img src = "images/carousel1.jpg">
+    <!--Cards-->
 
+    <div class = "container-fluid">
+
+        <div class = "row">
+            <h1 style = "font-family: 'Times New Roman', Times, serif; text-align: center; color: white;" id = "titles"> SHOP FOR</h1>
+        </div>
+
+        <div class = "row row-content">
+
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/shop-men.jpg" alt="Card image cap" style = "width: 475px; height: 305px">
+                <div class="card-body">
+                  <h5 class="card-title">Men's Wear</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/shop-women.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Women's Wear</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/shop-boys.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Boys' Wear</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/girls_card.jpg" alt="Card image cap" style = "width: 500px; height: 300px; object-fit:cover;">
+                <div class="card-body">
+                  <h5 class="card-title">Girls' Wear</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Brand Cards-->
+
+    <div class = "container-fluid">
+        <div class = "row">
+            <h1 style = "font-family: 'Times New Roman', Times, serif; text-align: center; color: white;" id = "titles">TOP BRANDS</h1>
+        </div>
+
+        <div class = "row row-content">
+
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/nike.jpg" alt="Card image cap">
+            </div>
+            
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/adidas.jpg" alt="Card image cap">
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/puma.png" alt="Card image cap">
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/peter.jpeg" alt="Card image cap">
+            </div>
+    
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/levis.png" alt="Card image cap">
+            </div>
+
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/W-Logo.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/Louis-Philippe-big.png" alt="Card image cap">
+            </div>
+
+            <div class="card col-sm" style="width: 18rem;">
+                <img class="card-img-top" src="images/Allen-Solly-Clothing-Brands.jpg" alt="Card image cap">
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+</div>
 <footer>
 
 </footer>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js%22%3E"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<!--Navigation bar-->
+<script>
+$(function(){
+  $("#nav-placeholder").load("navbar.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<script>
+    $(document).ready(function()
+    {
+        $('#myCarousel').carousel({interval:2000});
+        $('#myCarousel').carousel('cycle');
+    });
+</script>
 
 </body>
 </html>
