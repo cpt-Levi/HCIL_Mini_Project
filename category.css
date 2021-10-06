@@ -1,0 +1,25 @@
+#left {
+  width: 20%;
+  margin-top: 10vw;
+  margin-left: 2vw;
+}
+.right {
+  margin-top: 10vw;
+}
+.checked {
+  color: orange;
+}
+.card {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: auto;
+  height: 300px;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  height: 300px;
+}
