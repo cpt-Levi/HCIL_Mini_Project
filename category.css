@@ -1,3 +1,6 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
 #left {
   width: 20%;
   margin-top: 10vw;
@@ -12,8 +15,12 @@
 .card {
   padding: 10px;
   margin-bottom: 30px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.col {
+}
 .card img {
   width: auto;
   height: 300px;
@@ -24,6 +31,7 @@
   height: 300px;
 }
 
+<<<<<<< HEAD
 body{
   
   background-image: url('/images/wallpaper-fade.png');
@@ -31,3 +39,13 @@ body{
   background-size: 30%;
 
 }
+=======
+.filter {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: max-content;
+  margin-left: 1rem;
+}
+.filter h1 {
+  color: rgb(102, 97, 97);
+}
+>>>>>>> 0086820c2dd3fbd734c6bcb4582cf989fab98966
