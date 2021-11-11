@@ -84,7 +84,7 @@
         <div class = "row row-content">
 
             <div class="card col-sm" style="width: 18rem;">
-                <img class="card-img-top" src="images/shop-men.jpg" alt="Card image cap" style = "width: 475px; height: 305px">
+                <img class="card-img-top" src="images/shop-men.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Men's Wear</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -111,16 +111,14 @@
             </div>
     
             <div class="card col-sm" style="width: 18rem;">
-                <img class="card-img-top" src="images/girls_card.jpg" alt="Card image cap" style = "width: 500px; height: 300px; object-fit:cover;">
+                <img class="card-img-top" src="images/girls_card.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Girls' Wear</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Show more</a>
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <!--Brand Cards-->
@@ -163,17 +161,11 @@
             <div class="card col-sm" style="width: 18rem;">
                 <img class="card-img-top" src="images/Allen-Solly-Clothing-Brands.jpg" alt="Card image cap">
             </div>
-
         </div>
-        
     </div>
-
-    
 </div>
-<footer>
 
-</footer>
-
+<div id="foot-placeholder"></div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
@@ -193,6 +185,12 @@ $(function(){
 <!--end of Navigation bar-->
 
 <script>
+    $(function(){
+      $("#foot-placeholder").load("footer.html");
+    });
+</script>
+
+<script>
     $(document).ready(function()
     {
         $('#myCarousel').carousel({interval:2000});
@@ -201,4 +199,5 @@ $(function(){
 </script>
 
 </body>
+
 </html>

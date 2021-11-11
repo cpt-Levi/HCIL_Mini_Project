@@ -3,7 +3,6 @@
     color:#99634e;
 }
 
-
 #navbar_2{
     background-color: #99634e;
     height: 70px;
@@ -56,13 +55,19 @@
 }
 
 .container{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;    
 }
+
 
 .card{
     padding : 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 10px rgba(32, 32, 32, 0.288);
 }
+
+.card img:hover {
+    transform: scale(1.1);
+}  
 
 .fa{
     height: 50px;
@@ -78,4 +83,21 @@ body{
     background-image: url("./images/wallpaper-fade.jpg");
     background-repeat: inherit;
     
+}
+
+footer {
+background-color: #efd2cbe1;
+height: 200px;
+margin-bottom: 0;
+padding-left: 30px;
+padding-top: 50px;
+color: rgb(34, 30, 30);
+}
+footer a {
+text-decoration: none;
+color: rgb(94, 91, 91) !important;
+}
+footer p {
+text-decoration: none;
+color: rgb(94, 91, 91) !important;
 }

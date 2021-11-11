@@ -23,3 +23,11 @@
   transform: scale(1.1);
   height: 300px;
 }
+
+body{
+  
+  background-image: url('/images/wallpaper-fade.png');
+  background-repeat : inherit; 
+  background-size: 30%;
+
+}
