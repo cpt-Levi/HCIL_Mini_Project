@@ -1,90 +1,110 @@
+/* First navbar properties */
 .navbar{
+    font-family: 'Times New Roman', Times, serif;
     background-color: #efd2cb;
     color:#99634e;
 }
 
+/* Second navbar properties */
 #navbar_2{
     background-color: #99634e;
     height: 70px;
 }
 
+/* navbar toggler button for sm screen */
 .navbar-toggler{
     border-color:#99634e;
 }
 
+/* navbar toggler icon for sm screen */
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(153,99,78,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 }
 
+/* navbar dropdown properties */
 .dropdown-toggle{
     color:#99634e;
     font-size: large;
     margin-right: 50px;
 }
 
+/* navbar dropdown menu properties */
+.dropdown-menu{
+    background-color: #99634e;
+}
+
+/* navbar dropdown category title */
+#drop-title{
+    color:#bd9889;
+}
+
+/* navbar dropdown category items */
+.dropdown-item{
+    color:#efd2cb ;
+}
+
+
+/* section headings */
 #titles{
     background-color: #99634e;
     width: 100%;
 }
 
-.dropdown-menu{
-    background-color: #99634e;
-}
-
-#drop-title{
-    color:#bd9889;
-}
-
-.dropdown-item{
-    color:#efd2cb ;
-}
-
+/* carousel background */
 .carousel{
     background-color: #efd2cb;
 }
 
+/* carousel item */
 .carousel-item{
     height: 250px;
 }
 
+/* carousel item image */
 .carousel-item img{
     position:fixed;
     top: 0;
     left: 0;
 }
 
+/* container class properties */
 .container{
     padding: 10px 10px 10px 10px;    
 }
 
-
+/* brand and category cards */
 .card{
     padding : 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     box-shadow: 0px 0px 10px 10px rgba(32, 32, 32, 0.288);
 }
 
+/* image pop up on hover */
 .card img:hover {
     transform: scale(1.1);
 }  
 
+/* fontawesome icons */
 .fa{
     height: 50px;
     margin: 0px 10px 0px 10px;
 }
 
+/* section hedings */
 .h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* body background image
 body{
     background-image: url("./images/wallpaper-fade.jpg");
     background-repeat: inherit;
-    
-}
+    background-size: 30%;
+} */
 
+/* footer properties */
 footer {
 background-color: #efd2cbe1;
 height: 200px;

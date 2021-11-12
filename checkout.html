@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <title>Threads&Needles</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+    <div style = "background-image: url('/images/wallpaper-fade.png'); background-repeat : inherit; background-size: 30%;">
+
+    <div id="nav-placeholder"></div>
+
+    <div class = "row">
+    <div class="cartBox col-10">
+        <div class="cartItem row">
+            <div class="col-2">
+                <img src="./images/boys1.jpg" class="cartImg"></img>
+            </div>
+
+            <div class="cartTxt col-6">
+                <p>Spiderman Sweatshirt</p>
+                <p>Allen solly</p>
+                <br />
+                <p>Rs. 600</p>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Size
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">S</a></li>
+                        <li><a class="dropdown-item" href="#">M</a></li>
+                        <li><a class="dropdown-item" href="#">L</a></li>
+                        <li><a class="dropdown-item" href="#">XL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Qty
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">0</a></li>
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cartItem row">
+            <div class="col-2">
+                <img src="./images/mens2.jpg" class="cartImg"></img>
+            </div>
+
+            <div class="cartTxt col-6">
+                <p>White T-shirt</p>
+                <p>Levis</p>
+                <br />
+                <p>Rs. 500</p>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Size
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">S</a></li>
+                        <li><a class="dropdown-item" href="#">M</a></li>
+                        <li><a class="dropdown-item" href="#">L</a></li>
+                        <li><a class="dropdown-item" href="#">XL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Qty
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">0</a></li>
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cartItem row">
+            <div class="col-2">
+                <img src="./images/women4.jpg" class="cartImg"></img>
+            </div>
+
+            <div class="cartTxt col-6">
+                <p>Black Dress</p>
+                <p>H&M</p>
+                <br />
+                <p>Rs. 2000</p>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Size
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">S</a></li>
+                        <li><a class="dropdown-item" href="#">M</a></li>
+                        <li><a class="dropdown-item" href="#">L</a></li>
+                        <li><a class="dropdown-item" href="#">XL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cartDropdown col-2">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Qty
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">0</a></li>
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class = "billbox col-3">
+
+            <div class = "cartItem row">
+
+                <div class = "cartTxt row">
+                    <div class = "col-8">
+                        <p>Sweatshirt</p>
+                        <p>White T-Shirt</p>
+                        <p>Black Dress</p>
+                        <p>Service Tax</p>
+                        <br />
+                        <hr>
+                        <p>Subtotal</p>
+                    </div>
+                    <div class = "col">
+                        <p>Rs. 600</p>
+                        <p>Rs. 500</p>
+                        <p>Rs. 2000</p>
+                        <p>Rs. 50</p>
+                        <br />
+                        <hr>
+                        <p>Rs. 3150</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <h3 style="margin-top: 2cm;">Payment Methods</h3>
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Credit Card
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <input type="radio" name="CC">
+                            <label>SBI</label><br>
+                            <input type="radio" name="CC">
+                            <label>ICICI</label><br>
+                            <input type="radio" name="CC">
+                            <label>MasterCard</label><br><br>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Debit Card
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <input type="radio" name="DC">
+                            <label>SBI</label><br>
+                            <input type="radio" name="DC">
+                            <label>ICICI</label><br>
+                            <input type="radio" name="DC">
+                            <label>MasterCard</label><br><br>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Net Banking
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <input type="radio" name="NB">
+                            <label>HDFC</label><br>
+                            <input type="radio" name="NB">
+                            <label>American Express</label><br>
+                            <input type="radio" name="NB">
+                            <label>Citi</label><br><br>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Pay on delivery
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <input type="radio" name="POD">
+                            <label>Cash</label><br>
+                            <input type="radio" name="POD">
+                            <label>Card</label><br>
+                            <input type="radio" name="POD">
+                            <label>UPI</label><br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="foot-placeholder"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js%22%3E"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <!--Navigation bar-->
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+    
+    <script>
+        $(function(){
+          $("#foot-placeholder").load("footer.html");
+        });
+    </script>
+
+</body>
+
+</html>
